@@ -44,7 +44,7 @@ pip install mysql-connector-python
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/student-management-system.git
+git clone https://github.com/AnujYadav-Dev/student-management-system.git
 cd student-management-system
 ```
 
@@ -86,7 +86,7 @@ def connect_db():
 Execute the main Python script to start the terminal-based student management system:
 
 ```bash
-python main.py
+python student_management.py
 ```
 
 ## How to Use
@@ -100,12 +100,12 @@ python main.py
 #### Add a Student:
 
 ```bash
-Enter student name: John Doe
+Enter student name: Anuj Yadav
 Enter class & section: 5A
 Enter admission number: 12345
-Enter date of birth (YYYY-MM-DD): 2010-05-20
-Enter mother's name: Jane Doe
-Enter father's name: Jack Doe
+Enter date of birth (YYYY-MM-DD): 2005-12-08
+Enter mother's name: Jane Yadav
+Enter father's name: Jack Yadav
 Enter phone number: 1234567890
 Enter address: 123 Main St
 ```
@@ -145,10 +145,6 @@ No student found with Student ID 5.
 - Add a graphical user interface (GUI) to improve the user experience.
 - Implement user authentication for enhanced security.
 - Add more search features (e.g., search by name, class, or phone number).
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contributions
 
